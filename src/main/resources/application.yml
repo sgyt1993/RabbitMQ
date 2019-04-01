@@ -1,0 +1,35 @@
+spring:
+  freemarker:
+    template-loader-path: classpath:/templates
+    charset: utf-8
+    content-type: text/html
+    expose-request-attributes: true
+    suffix: .html
+  datasource:
+    name: test
+    url: jdbc:mysql://127.0.0.1:3306/common?characterEncoding=utf-8&amp;rewriteBatchedStatements=true&amp;allowMultiQueries=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    filters: stat
+    maxActive: 20
+    initialSize: 1
+    maxWait: 60000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxOpenPreparedStatements: 20
+  rabbitmq:
+    #4369 -- erlang发现口
+    #5672 --client端通信口
+    #15672 -- 管理界面ui端口
+    #25672 -- server间内部通信口
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest

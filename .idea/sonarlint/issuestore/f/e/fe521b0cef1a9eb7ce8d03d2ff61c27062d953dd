@@ -1,3 +1,13 @@
 
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.(šº™ºıÿÿÿÿ8¶ÒÉ½-
+ksquid:S1192"HDefine a constant instead of duplicating this literal "Sender:" 4 times.(šº™ºıÿÿÿÿ8üñÒ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(±ÉÁåøÿÿÿÿ8ÃåÊ-
+lsquid:S1192"NDefine a constant instead of duplicating this literal "topicExchange" 3 times.(ÃºÌ8È²Ô-
+[
+squid:S106!"9Replace this use of System.out or System.err by a logger.(±ÉÁåøÿÿÿÿ8üñÒ-
+[
+squid:S106'"9Replace this use of System.out or System.err by a logger.(±ÉÁåøÿÿÿÿ8È²Ô-
+[
+squid:S106."9Replace this use of System.out or System.err by a logger.(±ÉÁåøÿÿÿÿ8æ¥Ç-

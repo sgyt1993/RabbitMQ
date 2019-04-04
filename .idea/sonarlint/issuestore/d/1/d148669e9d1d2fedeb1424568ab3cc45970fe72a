@@ -1,2 +1,13 @@
 
-„squid:S1488-"fImmediately return this expression instead of assigning it to the temporary variable "rabbitTemplate".(Š€Ş¯8”…û¼-
+qsquid:ModifiersOrderCheck#"EReorder the modifiers to comply with the Java Language Specification.(È•¨ë8ÔÒ¨-
+rsquid:S00100s"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×Ê¦øÿÿÿÿ8†ã¯-
+~squid:S00115!"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(áÏ‚Ôûÿÿÿÿ8ÔÒ¨-
+rsquid:S00100n"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”·›úÿÿÿÿ8†ã¯-
+„squid:S14882"fImmediately return this expression instead of assigning it to the temporary variable "rabbitTemplate".(Š€Ş¯8”…û¼-
+vsquid:ModifiersOrderCheck!"EReorder the modifiers to comply with the Java Language Specification.(áÏ‚Ôûÿÿÿÿ8ÔÒ¨-
+usquid:S00117}"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú®¡£øÿÿÿÿ8Õ¼-
+psquid:S00117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Ê8×¢Â-
+ysquid:S00115#"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(È•¨ë8ÔÒ¨-
+ksquid:S1192U"MUse already-defined constant 'message' instead of duplicating its value here.(¥ú³Á8òŞ¼-
+lsquid:S00100i"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñãÕ^8°€©-
+vsquid:S00117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒâıÿÿÿÿ8¦¶Á-

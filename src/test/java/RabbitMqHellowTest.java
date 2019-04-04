@@ -22,4 +22,16 @@ public class RabbitMqHellowTest {
         hellowSender.send();
     }
 
+    @Test
+    public void topicsend(){
+        hellowSender.send1();
+        hellowSender.send2();
+        hellowSender.send3();
+    }
+
+    @Test
+    public void fanoutsend(){
+        hellowSender.sendFanout();
+    }
+
 }
